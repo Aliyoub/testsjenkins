@@ -8,5 +8,5 @@ git remote add origin24 git@github.com:Aliyoub/testsjenkins.git
 unset SSH_ASKPASS
 git branch mabranche
 git checkout mabranche
-git push origin mabranche
+git push -u origin mabranche
 ./myfile.sh

@@ -6,5 +6,7 @@ git add .
 git commit -m "add myfile"
 git remote add origin24 git@github.com:Aliyoub/testsjenkins.git
 unset SSH_ASKPASS
-git push origin HEAD:main
+git branch mabranche
+git checkout mabranche
+git push origin mabranche
 ./myfile.sh

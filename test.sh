@@ -4,5 +4,6 @@ chmod +x myfile.sh
 echo "hello depuis myfile" > myfile
 git add .
 git commit -m "add myfile"
-git push HEAD:main
+git remote add origin git@github.com:Aliyoub/testsjenkins.git
+git push
 ./myfile.sh

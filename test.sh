@@ -1,1 +1,1 @@
-echo Bonjour mon pote
+echo Bonjour mon pote!

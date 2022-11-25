@@ -5,5 +5,5 @@ echo "hello depuis myfile" > myfile
 git add .
 git commit -m "add myfile"
 git remote add origin22 git@github.com:Aliyoub/testsjenkins.git
-git push
+git push origin HEAD:main
 ./myfile.sh

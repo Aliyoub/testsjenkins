@@ -4,5 +4,5 @@ chmod +x myfile.sh
 echo "hello depuis myfile" > myfile
 git add .
 git commit -m "add myfile"
-git push main
+git push HEAD:main
 ./myfile.sh

@@ -1,12 +1,9 @@
 echo Bonjour mon pote!
-touch myfile.sh
-chmod +x myfile.sh
-echo "hello depuis myfile" > myfile
+touch myfile2.sh
+chmod +x myfile2.sh
+echo "hello depuis myfile2" > myfile2.sh
 git add .
-git commit -m "add myfile"
-git remote add origin26 git@github.com:Aliyoub/testsjenkins.git
-unset SSH_ASKPASS
-#git branch mabranche2
-#git checkout mabranche2
-git push -u origin mabranche2
-./myfile.sh
+git commit -m "add myfile2.sh"
+git remote add aliyou2 git@github.com:Aliyoub/testsjenkins.git
+git push --set-upstream alyou2 temp
+./myfile2.sh
